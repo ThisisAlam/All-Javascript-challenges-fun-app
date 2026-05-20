@@ -1,5 +1,8 @@
 import PanicFunction from "./components/PanicFunction";
 import WishperFunction from "./components/WishperFunction";
+import RandomCapsFunction from "./components/RandomCapsFunction";
+import TitleCaseWord from "./components/TitleCaseWord";
+import TitleCaseSentence from "./components/TitleCaseSentence";
 import "./App.css";
 
 export default function App() {
@@ -12,24 +15,33 @@ export default function App() {
         <small>Click on the challenges to play with them.</small>
       </header>
       <main>
-        <br />
+        
         <hr />
-        <br />
-
+        
         {/* //function to "Panicify a string" */}
         <PanicFunction />
 
-        <br />
         <hr />
-        <br />
-
+        
         {/* //function to "Whisper" */}
         <WishperFunction />
 
-        <br />
         <hr />
-        <br />
 
+        {/* //function to "Random Caps" */}
+        <RandomCapsFunction />
+        
+        <hr />
+        
+        {/* //function to "Title Case Word" */}
+        <TitleCaseWord />
+        
+        <hr />
+        {/* //function to "Title Case Sentence" */}
+        <TitleCaseSentence />
+        
+        <hr />
+      
       </main>
       <footer>
         <p>Created by <a href="https://github.com/ThisisAlam">Fakhar Alam</a></p>
