@@ -16,20 +16,24 @@ export default function removeDupFromRecipe() {
     ];
     
     function removeDuplicatesFromRecipe(string) {
-        return <p>{string}</p>
+        const ingredientsArray = string.split(", ");
+        const uniqueIngredients = [...new Set(ingredientsArray)];
+        return <p>{uniqueIngredients.join(", ")}</p>;
     }
 
-    const [value, setValue] = React.useState("");
     const [result, setResult] = React.useState("");
     
     return(
         <div className="remove-dup-from-recipe-game">
-            <p>Enter a recipe to remove duplicates from it:</p>
-            <input type="text" 
-                value={value} 
-                onChange={(e) => setValue(e.target.value)} 
-            />
-            <button onClick={() => setResult(removeDuplicatesFromRecipe(value))}>Remove Duplicates</button>
+            <p>This is the scrambled egg recipe:</p>
+            <ul>
+                {eggScrambleRecipe.map((ingredient, index) => (
+                    <li key={index}>{ingredient}</li>
+                ))}
+            </ul>
+            <button onClick={() => 
+                setResult(removeDuplicatesFromRecipe(eggScrambleRecipe.join(", ")))}
+            >Remove Duplicates from the Scrambled Recipe</button>
             <div style={{marginTop:"20px"}}>
                 {result}
             </div>

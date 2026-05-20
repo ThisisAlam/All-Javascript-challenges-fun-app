@@ -10,6 +10,7 @@ import DecodeAlienMessage from "./components/DecodeAlienMessage";
 import Palindrom from "./components/Palindrom";
 import RecoverPassword from "./components/RecoverPassword";
 import FrequencyOfLetters from "./components/FrequencyOfLetters";
+import RemoveDupFromRecipe from "./components/RemoveDupFromRecipe";
 import "./App.css";
 
 export default function App() {
@@ -70,6 +71,11 @@ export default function App() {
 
         {/* //function to "Frequency of Letters" */}
         <FrequencyOfLetters />
+        <hr />
+
+        {/* //function to "Remove Duplicates from Recipe" */}
+        <RemoveDupFromRecipe /> 
+
       </main>
       <hr />
       <footer>
