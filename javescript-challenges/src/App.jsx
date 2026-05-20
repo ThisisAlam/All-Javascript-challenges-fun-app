@@ -11,6 +11,9 @@ import Palindrom from "./components/Palindrom";
 import RecoverPassword from "./components/RecoverPassword";
 import FrequencyOfLetters from "./components/FrequencyOfLetters";
 import RemoveDupFromRecipe from "./components/RemoveDupFromRecipe";
+
+import FlattenTheArray from "./components/FlattenTheArray";
+
 import "./App.css";
 
 export default function App() {
@@ -75,7 +78,10 @@ export default function App() {
 
         {/* //function to "Remove Duplicates from Recipe" */}
         <RemoveDupFromRecipe /> 
+        <hr />
 
+        {/* //function to "Flatten the Array" */}
+        <FlattenTheArray />
       </main>
       <hr />
       <footer>
