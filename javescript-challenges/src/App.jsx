@@ -25,6 +25,7 @@ import InfluencerVsTiktoker from "./components/InfluencerVsTiktoker";
 import PodcastsAwards from "./components/PodcastsAwards";
 import CreatePodcastDescription from "./components/CreatePodcastDescription";
 import AnagramOfArray from "./components/AnagramOfArray";
+import KeepTheFlowers from "./components/KeepTheFlowers"; 
 import "./App.css";
 
 export default function App() {
@@ -142,9 +143,13 @@ export default function App() {
         {/* //function to "Create Podcast Description" */}
         <CreatePodcastDescription />
         <hr />
-        
+
         {/* //function to "Anagram of Array" */}
         <AnagramOfArray />
+        <hr />
+
+        {/* //function to "Keep the Flowers" */}
+        <KeepTheFlowers />
       </main>
       <hr />
       <footer>
