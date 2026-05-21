@@ -20,6 +20,11 @@ import CandiesOnSale from "./components/CandiesOnSale";
 import SavoryCandies from "./components/SavoryCandies";
 import SortProductsData from "./components/SortProductsData";
 import CollectGenresFromMovies from "./components/CollectGenresFromMovies";
+import SortFlightPodcasts from "./components/SortFlightPodcasts";
+import InfluencerVsTiktoker from "./components/InfluencerVsTiktoker";
+import PodcastsAwards from "./components/PodcastsAwards";
+import CreatePodcastDescription from "./components/CreatePodcastDescription";
+import AnagramOfArray from "./components/AnagramOfArray";
 import "./App.css";
 
 export default function App() {
@@ -113,14 +118,33 @@ export default function App() {
         {/* //function to "Savory Candies" */}
         <SavoryCandies />
         <hr />
-        
+
         {/* //function to "Sort Products by Price" */}
         <SortProductsData />
         <hr />
 
         {/* //function to "Collect Genres from Movies" */}
         <CollectGenresFromMovies />
+        <hr />
 
+        {/* //function to "Sort Flight Podcasts" */}
+        <SortFlightPodcasts />
+        <hr />
+
+        {/* //function to "Influencer vs TikToker" */}
+        <InfluencerVsTiktoker />
+        <hr />
+
+        {/* //function to "Podcast Awards" */}
+        <PodcastsAwards />
+        <hr />
+
+        {/* //function to "Create Podcast Description" */}
+        <CreatePodcastDescription />
+        <hr />
+        
+        {/* //function to "Anagram of Array" */}
+        <AnagramOfArray />
       </main>
       <hr />
       <footer>
