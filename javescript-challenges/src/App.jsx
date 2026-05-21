@@ -14,6 +14,12 @@ import RemoveDupFromRecipe from "./components/RemoveDupFromRecipe";
 import FlattenTheArray from "./components/FlattenTheArray";
 import SumTheArray from "./components/SumTheArray";
 import CountVoteFromArray from "./components/CountVoteFromArray";
+import GetFreePodcast from "./components/GetFreePodcast";
+import FilterSweetCandies from "./components/FilterSweetCandies";
+import CandiesOnSale from "./components/CandiesOnSale";
+import SavoryCandies from "./components/SavoryCandies";
+import SortProductsData from "./components/SortProductsData";
+import CollectGenresFromMovies from "./components/CollectGenresFromMovies";
 import "./App.css";
 
 export default function App() {
@@ -83,12 +89,38 @@ export default function App() {
         {/* //function to "Flatten the Array" */}
         <FlattenTheArray />
         <hr />
+
         {/* //function to "Sum the Array" */}
         <SumTheArray />
         <hr />
-        
+
         {/* //function to "Count Votes from Array" */}
         <CountVoteFromArray />
+        <hr />
+
+        {/* //function to "Get Free Podcast" */}
+        <GetFreePodcast />
+        <hr />
+
+        {/* //function to "Filter Sweet Candies" */}
+        <FilterSweetCandies />  
+        <hr />
+
+        {/* //function to "Candies on Sale" */}
+        <CandiesOnSale />
+        <hr />
+
+        {/* //function to "Savory Candies" */}
+        <SavoryCandies />
+        <hr />
+        
+        {/* //function to "Sort Products by Price" */}
+        <SortProductsData />
+        <hr />
+
+        {/* //function to "Collect Genres from Movies" */}
+        <CollectGenresFromMovies />
+
       </main>
       <hr />
       <footer>
