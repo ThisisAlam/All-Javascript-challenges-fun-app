@@ -13,7 +13,7 @@ import FrequencyOfLetters from "./components/FrequencyOfLetters";
 import RemoveDupFromRecipe from "./components/RemoveDupFromRecipe";
 import FlattenTheArray from "./components/FlattenTheArray";
 import SumTheArray from "./components/SumTheArray";
-
+import CountVoteFromArray from "./components/CountVoteFromArray";
 import "./App.css";
 
 export default function App() {
@@ -85,6 +85,10 @@ export default function App() {
         <hr />
         {/* //function to "Sum the Array" */}
         <SumTheArray />
+        <hr />
+        
+        {/* //function to "Count Votes from Array" */}
+        <CountVoteFromArray />
       </main>
       <hr />
       <footer>
