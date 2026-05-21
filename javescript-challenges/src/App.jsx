@@ -11,8 +11,8 @@ import Palindrom from "./components/Palindrom";
 import RecoverPassword from "./components/RecoverPassword";
 import FrequencyOfLetters from "./components/FrequencyOfLetters";
 import RemoveDupFromRecipe from "./components/RemoveDupFromRecipe";
-
 import FlattenTheArray from "./components/FlattenTheArray";
+import SumTheArray from "./components/SumTheArray";
 
 import "./App.css";
 
@@ -82,6 +82,9 @@ export default function App() {
 
         {/* //function to "Flatten the Array" */}
         <FlattenTheArray />
+        <hr />
+        {/* //function to "Sum the Array" */}
+        <SumTheArray />
       </main>
       <hr />
       <footer>
